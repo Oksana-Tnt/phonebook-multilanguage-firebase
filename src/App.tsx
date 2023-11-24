@@ -5,7 +5,7 @@ import { Home } from "./pages/Home";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/phonebook-multilanguage-firebase">
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
